@@ -13,9 +13,9 @@ void setup() {
     parsedData[i] = token; 
   }
   //  The data is parsed into an array
-  //  you can perform simple array functions on it
+  //  you can perform simple array operationson it eg.
   Serial.println(parsedData[13]);
-  
+  // Or
   for(int j = 0; j < 14; j++){
     Serial.println(parsedData[j]);
   }
